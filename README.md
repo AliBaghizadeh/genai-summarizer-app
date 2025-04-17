@@ -36,8 +36,6 @@ The application follows this pipeline:
 9.  **Output:** The structured summary and the evaluation result are displayed to the user via the Streamlit interface.
 
 
-<!-- ![Workflow Chart](path/to/your/flowchart.png) -->
-
 ## GenAI Capabilities Demonstrated
 
 This project utilizes several core GenAI techniques:
@@ -97,14 +95,13 @@ project-folder/
 ├── pipeline.py # Core RAG+Eval logic
 ├── config.py # Constants and settings
 ├── requirements.txt # Dependencies
-├── chroma_capstone_db/ # Created by ChromaDB (add to .gitignore)
+├── chroma_capstone_db/ # Created by ChromaDB 
 └── README.md # This file
 ```
 
 ## Limitations
 
-*(Based on our previous discussion - please review and refine)*
-*   **Retrieval Quality:** The quality of the summary depends heavily on whether the vector search retrieves truly relevant *and explanatory* chunks. Sometimes related but non-informative chunks might be retrieved.
+*   **Retrieval Quality:** The quality of the summary depends heavily on whether the vector search retrieves truly relevant *and explanatory* chunks. Sometimes, related but non-informative chunks might be retrieved.
 *   **Context Window vs. `k`:** Retrieving a very large number of chunks (`k`) to ensure completeness increases processing time and API costs.
 *   **Evaluation Accuracy:** The automated evaluation by Gemini Flash provides a useful quality signal but is still an LLM output and may not be perfectly accurate or nuanced.
 *   **LLM Faithfulness:** While prompted to stick to the context, the summarization LLM (Gemini Pro) could still potentially hallucinate or misinterpret complex information.
@@ -112,7 +109,6 @@ project-folder/
 
 ## Future Work
 
-*(Based on your notebook text)*
 *   **Multi-Document Comparison:** Extend functionality to compare/contrast information across sources.
 *   **Chatbot Interface:** Allow for conversational follow-up questions instead of single-shot queries.
 *   **Integration:** Connect to research tools like reference managers or note-taking apps.
