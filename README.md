@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project, developed as a capstone for the Google 5-Day GenAI Intensive Course, addresses the challenge of understanding and synthesizing information from numerous technical documents like research papers (PDFs) and web articles. Manually processing these diverse sources is time-consuming.
+This project, developed as a capstone for the [Google 5-Day GenAI Intensive Course](https://rsvp.withgoogle.com/events/google-generative-ai-intensive_2025q1), addresses the challenge of understanding and synthesizing information from numerous technical documents like research papers (PDFs) and web articles. Manually processing these diverse sources is time-consuming.
 
 This Streamlit application leverages Google's Gemini models and vector databases (ChromaDB) to:
 1.  Ingest text from uploaded PDFs and provided web URLs.
