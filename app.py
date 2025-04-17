@@ -3,7 +3,7 @@ import os
 import json
 import time
 
-# --- Set Page Config FIRST --- 
+# --- Set Page Config --- 
 st.set_page_config(layout="wide")
 
 # --- Import backend logic from pipeline.py --- 
@@ -76,7 +76,7 @@ with st.sidebar:
         key="clear_db_checkbox"
         )
 
-# --- Main Input Area --- (Remains the same)
+# --- Main Input Area --- 
 st.header("1. Upload Documents")
 uploaded_pdfs = st.file_uploader(
     "Upload PDF files",
@@ -96,7 +96,7 @@ user_query = st.text_input(
     placeholder="e.g., Explain attention mechanisms in vision transformers"
 )
 
-# --- Processing Trigger --- (Remains the same)
+# --- Processing Trigger --- 
 st.header("4. Run Analysis")
 run_button = st.button("Generate Summary & Evaluation")
 
@@ -216,6 +216,6 @@ if run_button:
                              st.warning(f"Could not serialize final state for display: {json_e}")
                              st.write(final_state)
 
-# Add some instructions or footer
+# Add some footer
 st.divider()
 st.caption("Built with Streamlit and Google Gemini. Refresh page for a new session.") 
