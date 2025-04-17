@@ -35,7 +35,7 @@ The application follows this pipeline:
 8.  **Evaluation (LLM 2):** The generated summary and the retrieved context are passed to Gemini 1.5 Flash, which evaluates the summary's quality (faithfulness, completeness, etc.).
 9.  **Output:** The structured summary and the evaluation result are displayed to the user via the Streamlit interface.
 
-*(Optional: You can embed your flowchart image here if you have it hosted somewhere)*
+
 <!-- ![Workflow Chart](path/to/your/flowchart.png) -->
 
 ## GenAI Capabilities Demonstrated
