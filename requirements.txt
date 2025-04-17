@@ -1,0 +1,12 @@
+langchain
+langgraph
+langchain-google-genai
+langchain-core 
+google-genai==1.7.0
+PyMuPDF==1.23.9
+chromadb==0.4.24
+requests==2.31.0
+beautifulsoup4==4.12.3
+numpy==1.26.4
+tqdm==4.66.1
+streamlit
