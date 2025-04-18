@@ -21,7 +21,9 @@ This tool saves time, boosts learning, and helps professionals grasp key points 
 
 ## The Challenge
 
-- **Information Overload:** AI research moves fast. Papers, blogs, and code spread across many sources.  
+The problem I am trying to address in this project is my personal bottleneck problem in reading and summarizing information on my areas of interest in AI, particularly computer vision.
+
+- **Information Overload:** AI research moves fast. Papers, blogs, and code are spread across many sources.  
 - **Manual Work:** Reading and summarizing wastes time and can miss crucial facts.
 
 **Goal:** Build an AI assistant that reads documents, answers questions, and checks its own work.
