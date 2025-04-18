@@ -1,5 +1,31 @@
 # GenAI Document Summarizer & Evaluator
 
+📺 **Video Presentation:** [YouTube Walkthrough](https://www.youtube.com/…)  
+🔗 **GitHub App:** [Streamlit Repository](https://github.com/your-username/your-repo)
+
+---
+
+## Introduction
+
+Welcome! This project is my capstone for the **Google 5‑Day GenAI Intensive Course (Q1 2025)**. It solves a common problem: how to quickly understand and summarize information from many technical documents—PDFs, research papers, and web articles—without spending hours reading.
+
+Using Google’s Gemini models and a ChromaDB vector database, the app:  
+1. **Ingests** text from uploaded PDFs or URLs.  
+2. **Searches** content with semantic vector search (RAG).  
+3. **Summarizes** answers to user queries with Gemini Pro in structured JSON.  
+4. **Evaluates** summary quality automatically with Gemini Flash.  
+
+This tool saves time, boosts learning, and helps professionals grasp key points from dense material.
+
+---
+
+
+
+
+
+
+# GenAI Document Summarizer & Evaluator
+
 ## Overview
 
 This project, developed as a capstone for the [Google 5-Day GenAI Intensive Course](https://rsvp.withgoogle.com/events/google-generative-ai-intensive_2025q1), addresses the challenge of understanding and synthesizing information from numerous technical documents like research papers (PDFs) and web articles. Manually processing these diverse sources is time-consuming.
@@ -10,6 +36,8 @@ This Streamlit application leverages Google's Gemini models and vector databases
 3.  Retrieve the most relevant information using semantic search (RAG).
 4.  Generate a structured summary answering the query using Gemini 1.5 Pro.
 5.  **Provide an automated quality assessment** of the generated summary using Gemini 1.5 Flash, adding a layer of trust and reliability.
+
+
 
 The goal is to provide a tool that saves time, improves learning, and helps professionals quickly grasp key information from dense technical material.
 
