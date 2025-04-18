@@ -233,28 +233,28 @@ project-folder/
 ## Limitations & Future Work
 
 **Limitations:**
-
-- **Complex PDF layouts (tables, formulas)**    
+   
+- **Complex PDF layouts (tables, formulas)**         
   *Reason:* Many technical PDFs include structured elements like tables, equations, or figures that basic text-extraction tools struggle to parse. Misread or skipped text can mislead the summarization model.
 
-- **Summary quality depends on retrieved context**    
+- **Summary quality depends on retrieved context**        
   *Reason:* The retrieval-augmented generation approach is only as good as its search results. If the vector search returns broadly related chunks rather than critical details, the summary may omit or inaccurately represent key information.
 
-- **AI evaluation is helpful but not perfect**    
+- **AI evaluation is helpful but not perfect**        
   *Reason:* Automated scoring by Gemini Flash provides quick feedback, but it remains an LLM output and can be biased or miss subtle factual errors. Human review is still recommended for critical use cases.
 
-**Future Work:**    
+**Future Work:**       
 
-- **Multi‑document comparison and contrast**    
+- **Multi‑document comparison and contrast**        
   *Why this matters:* Researchers often need to see how different sources agree or conflict. A comparative view would highlight consistencies and discrepancies, improving literature reviews.
 
-- **Conversational chatbot-style Q&A**    
+- **Conversational chatbot-style Q&A**        
   *Why this matters:* Allowing follow-up questions in a dialogue makes the tool more interactive and suited for exploratory research workflows.
 
-- **OCR integration for scanned documents**    
+- **OCR integration for scanned documents**        
   *Why this matters:* Many archives are scanned images. Adding OCR support would unlock access to historical or image-based documents.
 
-- **Self‑refinement loops with LLM feedback**   
+- **Self‑refinement loops with LLM feedback**        
   *Why this matters:* Feeding evaluation results back into summarization lets the system iteratively correct errors and hallucinations, improving output quality over multiple passes.
 
 ---
