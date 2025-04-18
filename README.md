@@ -173,7 +173,7 @@ st.write(evaluation)
 - Retrieval‑Augmented Generation (RAG)  
 - Large Language Models (Gemini Pro & Flash)  
 - Controlled JSON Generation
-- Pipeline Orchestration (LangChain): Manages text splitting, embedding, prompt building, and evaluation calls through a modular workflow
+- Pipeline Orchestration (LangGraph): Manages splitting, embedding, prompt building, and evaluation calls
 - GenAI Evaluation via function calling  
 - Few‑Shot Prompting and Agents
 
