@@ -39,7 +39,7 @@ This is not the final solution to learn and review a topic. However, this is a f
 
 ## GenAI Pipeline & Detailed Workflow
 
-Below is the step-by-step pipeline used in both the Kaggle notebook and the Streamlit app. Each step shows the code snippet followed by bullet-point explanations in proper README markdown format.
+Below is the step-by-step pipeline used in both the Kaggle notebook and the Streamlit app.
 
 ### 1. Asking the Question
 ```python
