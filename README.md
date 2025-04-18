@@ -1,7 +1,7 @@
 # GenAI Document Summarizer & Evaluator
 
-📺 **Video Presentation:** [YouTube Walkthrough](https://www.youtube.com/…)  
-🔗 **GitHub App:** [Streamlit Repository](https://github.com/your-username/your-repo)
+📺 **Video Presentation:** [YouTube Walkthrough](https://youtu.be/CcCR48S1tf8)  
+🔗 **Kaggle Notebbok:** [Submitted for Competition](https://www.kaggle.com/code/alibaghizadeh/summarize-and-evaluate-technical-information)
 
 ---
 
