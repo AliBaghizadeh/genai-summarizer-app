@@ -260,7 +260,7 @@ project-folder/
 
 Thank you to the **Google 5‑Day GenAI Intensive Course** instructors and the Kaggle community for the support and feedback!  
 
-> **Author:** Dr. Ali Baghi Zadeh  
+> **Author:** Ali Baghi Zadeh  
 > **Kaggle Notebook:** https://www.kaggle.com/code/alibaghizadeh/summarize-and-evaluate-technical-information  
 > **Video:** https://www.youtube.com/…  
 > **License:** MIT
