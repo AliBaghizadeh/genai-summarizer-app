@@ -13,6 +13,8 @@ This Streamlit application leverages Google's Gemini models and vector databases
 
 The goal is to provide a tool that saves time, improves learning, and helps professionals quickly grasp key information from dense technical material.
 
+Please go to the following link for a Kaggle Notebook of this project submitted to the ***Gen AI Intensive Course Capstone Competition 2025Q1***: (https://www.kaggle.com/code/alibaghizadeh/summarize-and-evaluate-technical-information)
+
 ## Features
 
 *   **Multi-Source Ingestion:** Handles both PDF uploads and web URLs.
