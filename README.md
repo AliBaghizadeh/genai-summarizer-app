@@ -32,7 +32,8 @@ The problem I am trying to address in this project is my personal bottleneck pro
 
 ## Case Study: Vision Transformers in Microscopy
 
-To show the app in action, I used a real-world example: **Vision Transformers** for image processing in scientific microscopy. By feeding articles and papers into the tool, I quickly got concise summaries of how attention mechanisms help or hinder performance. This is not the final solution to learn and review a topic. However, this is a first step to review tens of references I have collected, and I would like to choose some of the most relevant references to my topic of interest. Using GenAI, I will have a quick review of the content of my references and which one is more suitable for my research or study. I wish I had such impressive tools during my PhD, as it could have accelerated my literature review and helped me to choose the right references for the specific topic of interest. 
+To show the app in action, I used a real-world example: **Vision Transformers** for image processing in scientific microscopy. By feeding articles and papers into the tool, I quickly got concise summaries of how attention mechanisms help or hinder performance.    
+This is not the final solution to learn and review a topic. However, this is a first step to review tens of references I have collected, and I would like to choose some of the most relevant references to my topic of interest. Using GenAI, I will have a quick review of the content of my references and which one is more suitable for my research or study. I wish I had such impressive tools during my PhD, as it could have accelerated my literature review and helped me to choose the right references for the specific topic of interest. 
 
 ---
 
