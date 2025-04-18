@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Welcome! This project is my capstone for the **Google 5‑Day GenAI Intensive Course (Q1 2025)**. It solves a common problem: how to quickly understand and summarize information from many technical documents—PDFs, research papers, and web articles—without spending hours reading.
+Welcome! This project is my capstone for the **Google 5‑Day GenAI Intensive Course (Q1 2025)** (https://rsvp.withgoogle.com/events/google-generative-ai-intensive_2025q1). It solves a common problem: how to quickly understand and summarize information from many technical documents—PDFs, research papers, and web articles—without spending hours reading.
 
 Using Google’s Gemini models and a ChromaDB vector database, the app:  
 1. **Ingests** text from uploaded PDFs or URLs.  
