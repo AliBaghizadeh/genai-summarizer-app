@@ -34,6 +34,13 @@ To show the app in action, I used a real-world example: **Vision Transformers** 
 
 ---
 
+## GenAI Pipeline & Detailed Workflow
+
+Below is the step-by-step pipeline used in both the Kaggle notebook and the Streamlit app. Each section includes code snippets **without import lines**, followed by a brief explanation of why each piece of code is needed.
+
+### 1. Asking the Question
+```python
+user_question = "What are the main benefits of Vision Transformers?"
 
 
 
