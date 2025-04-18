@@ -19,6 +19,24 @@ This tool saves time, boosts learning, and helps professionals grasp key points 
 
 ---
 
+## The Challenge
+
+- **Information Overload:** AI research moves fast. Papers, blogs, and code spread across many sources.  
+- **Manual Work:** Reading and summarizing wastes time and can miss crucial facts.
+
+**Goal:** Build an AI assistant that reads documents, answers questions, and checks its own work.
+
+---
+
+## Case Study: Vision Transformers in Microscopy
+
+To show the app in action, I used a real-world example: **Vision Transformers** for image processing in scientific microscopy. By feeding articles and papers into the tool, I quickly got concise summaries of how attention mechanisms help or hinder performance.
+
+---
+
+
+
+
 
 
 
