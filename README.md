@@ -9,7 +9,7 @@
 
 Welcome! This project is my capstone for the **[Google 5-Day GenAI Intensive Course](https://rsvp.withgoogle.com/events/google-generative-ai-intensive_2025q1)**. It solves a common problem: *how to quickly understand and summarize information from many technical documents—PDFs, research papers, and web articles—without spending hours reading*.
 
-Using Google’s Gemini models and a ChromaDB vector database, the app:  
+Using Google’s *Gemini models*, *LangChain orchestration*, and a *ChromaDB vector database*, the app:  
 1. **Ingests** text from uploaded PDFs or URLs.  
 2. **Searches** content with semantic vector search (RAG).  
 3. **Summarizes** answers to user queries with Gemini Pro in structured JSON.  
@@ -50,7 +50,6 @@ user_question = "What are the main benefits of Vision Transformers?"
 ### 2. Loading Documents
 ```python
 reader = PdfReader("example.pdf")
-text = "".join([page.extract_text() for page in reader.pages])
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
@@ -58,7 +57,6 @@ web_text = soup.get_text()
 ```
 - **PdfReader("example.pdf")**: Opens the PDF file for text extraction.  
 - **page.extract_text()**: Extracts text from each page of the PDF.  
-- **"".join([...])**: Combines all page texts into one string.  
 - **requests.get(url)**: Retrieves the raw HTML of the given web URL.  
 - **BeautifulSoup(...).get_text()**: Parses HTML and extracts visible text content.
 
@@ -81,7 +79,7 @@ class GeminiEmbeddingFunction(EmbeddingFunction):
     def __call__(self, input_texts: Documents) -> Embeddings:
         return client.models.embed_content(
             model="models/text-embedding-004",
-            texts=input_texts
+           ...
         )
 
 embedding_fn = GeminiEmbeddingFunction()
@@ -101,7 +99,7 @@ collection = client.get_or_create_collection(
 collection.add(
     documents=chunks,
     metadatas=[{"source": "pdf_or_url"} for _ in chunks],
-    ids=[f"chunk_{i}" for i in range(len(chunks))]
+    ...
 )
 
 results = collection.query(
@@ -174,9 +172,10 @@ st.write(evaluation)
 - Embeddings & Vector Search (ChromaDB)  
 - Retrieval‑Augmented Generation (RAG)  
 - Large Language Models (Gemini Pro & Flash)  
-- Controlled JSON Generation  
+- Controlled JSON Generation
+- Pipeline Orchestration (LangChain): Manages text splitting, embedding, prompt building, and evaluation calls through a modular workflow
 - GenAI Evaluation via function calling  
-- (Optional) Few‑Shot Prompting and Agents
+- Few‑Shot Prompting and Agents
 
 ---
 
